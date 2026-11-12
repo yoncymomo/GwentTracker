@@ -1,0 +1,32 @@
+# ---- 运行时 / 构建产物 ----
+_internal/
+_internal.bak-*/
+*.bak-*
+GwentTracker.exe
+GwentTracker.zip
+*.zip
+build/
+dist/
+*.spec
+
+# ---- 本机运行数据 ----
+cards_art/
+history/
+cards_zh.json
+decks_cache.json
+decks_local.json
+config.json
+*.log
+crash_log.txt
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# ---- 其他 ----
+备份/
+gwent-live-advisor-main/
+.DS_Store
+Thumbs.db
